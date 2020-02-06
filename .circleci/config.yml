@@ -7,9 +7,10 @@ jobs:
     environment:
       DEPLOYMENT_NAME: ci-cd
       PROJECT_ID: ci-cd-example1
-      CLUSTER_NAME: ci-cd
+      CLUSTER_NAME: ci-cd-example
       CLUSTER_NAME_STAG: ci-cd-stag
-      CLOUDSDK_COMPUTE_ZONE: us-east-2 
+      AWS_ACCOUNT_ID: 244471209554
+      AWS_DEFAULT_REGION: us-east-2 
       CONTAINER_NAME: ci-cd
       IMAGE: ci-cd
       REG_ID: ci-cd
