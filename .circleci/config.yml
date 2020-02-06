@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: wecs/circle-ci-aws-node:0.1.0
+      - image: wecs/circleci/node:latest
     working_directory: ~/workspace
     environment:
       DEPLOYMENT_NAME: ci-cd
